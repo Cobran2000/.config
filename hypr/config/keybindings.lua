@@ -27,7 +27,19 @@ hl.bind(mainMod .. " + O", 		hl.plugin.scrolloverview.overview("toggle all"))
 -- Screensize change
 hl.bind(mainMod .. " + R", 		hl.dsp.layout("colresize +conf"))
 hl.bind(secondMod .." + R",		hl.dsp.layout("colresize -conf"))
-hl.bind(mainMod .. " + F", 		hl.dsp.layout("colresize 1"))
+hl.bind(mainMod .. " + F", 		function()
+	--Get active window
+	local window = hl.get_active_window()
+	if not window then return end
+	
+	--resize logic
+	if window.size.x >= 1800 then
+		hl.dispatch(hl.dsp.layout("colresize 0.5"))
+	else
+		hl.dispatch(hl.dsp.layout("colresize 1"))
+	end
+end)
+
 hl.bind(secondMod .. " + F", 		hl.dsp.window.fullscreen())
 
 -- Move focus with mainMod + arrow keys
