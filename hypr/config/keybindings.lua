@@ -22,9 +22,9 @@ hl.bind(mainMod .. " + M", 		hl.dsp.exec_cmd(muziek))
 hl.bind("PRINT", 			hl.dsp.exec_cmd("hyprshot -m region --clipboard-only"))
 
 -- Overview
-hl.bind(mainMod .. " + O", 		hl.plugin.scrolloverview.overview("toggle all"))
+hl.bind(mainMod .. " + O", hl.plugin.scrolloverview.overview("toggle all"))
 
--- Screensize change
+-- Screensize change and window control
 hl.bind(mainMod .. " + R", 		hl.dsp.layout("colresize +conf"))
 hl.bind(secondMod .." + R",		hl.dsp.layout("colresize -conf"))
 hl.bind(mainMod .. " + F", 		function()
@@ -39,9 +39,11 @@ hl.bind(mainMod .. " + F", 		function()
 		hl.dispatch(hl.dsp.layout("colresize 1"))
 	end
 end)
-
 hl.bind(secondMod .. " + F", 		hl.dsp.window.fullscreen())
-
+hl.bind(mainMod .. " + H",		function()
+	hl.dispatch(hl.dsp.layout("swapcol r"))  
+	hl.dispatch(hl.dsp.focus({direction = "left"}))
+end)
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + J",  		hl.dsp.focus({ direction = "left" })) 
 hl.bind(mainMod .. " + K", 		hl.dsp.focus({ direction = "right" }))
