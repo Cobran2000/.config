@@ -2,7 +2,7 @@
 discord/
 mozilla/
 spotify/
-code/
+code/*
 session
 
 # Systeemblobs, cache en audio-cookies
