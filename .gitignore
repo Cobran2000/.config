@@ -17,3 +17,6 @@ yay/
 *.sqlite
 *.ldb
 *.git-credentials
+QtProject.conf
+ballofileinformationrc
+trashrc
