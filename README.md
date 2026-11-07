@@ -6,6 +6,7 @@ Launcher:           hyprlauncher
 ## Terminal and command  
 Terminal:           kitty  
 Terminal shell:     zsh  
+  
 **`/etc/zsh/zshenv`**
 ```zsh
 if [[ -z "$XDG_CONFIG_HOME"]]
@@ -17,7 +18,7 @@ then
         export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 fi
 ```
-
+   
 AUR helper:         yay  
   
 ## Booting and backup  
