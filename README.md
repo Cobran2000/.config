@@ -18,7 +18,9 @@ then
         export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 fi
 ```
-   
+CD rember:          zoxide   
+Fuzzy finder:       fzf  
+Utils:              eza, fd, ripgrep, bat    
 AUR helper:         yay  
   
 ## Booting and backup  

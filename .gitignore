@@ -11,6 +11,8 @@ dconf/
 go/
 pulse/
 yay/
+zsh/history
+zsh/zcompdump
 
 # Algemeen tijdelijk en gevoelige bestanden
 *.log
