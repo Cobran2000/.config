@@ -1,0 +1,16 @@
+# Accounts, sesseis en authenticatie
+discord/
+mozilla/
+spotify/
+session
+
+# Systeemblobs, cache en audio-cookies
+dconf/
+go/
+pulse/
+yay/
+
+# Algemeen tijdelijk en gevoelige bestanden
+*.log
+*.sqlite
+*.ldb
