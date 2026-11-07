@@ -7,7 +7,8 @@ Launcher:           hyprlauncher
 Terminal:           kitty  
 Terminal shell:     zsh  
     setting on location /etc/zsh/zshenv
-'''if [[ -z "$XDG_CONFIG_HOME"]]
+'''text
+if [[ -z "$XDG_CONFIG_HOME"]]
 THEN
      export XDG_CONFIG_HOME="$HOME/.config"'''
 fi
