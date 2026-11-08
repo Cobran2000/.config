@@ -2,7 +2,8 @@
 ## Desktop, taskbars and popups  
 Desktop enverment:  hyprland  
 Launcher:           hyprlauncher  
-  
+Texteditor:         Neovim   
+
 ## Terminal and command  
 Terminal:           kitty  
 Terminal shell:     zsh  
