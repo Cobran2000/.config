@@ -67,7 +67,7 @@ hl.window_rule({
     title = "Friends List",
   },
   float = true,
-  center = true,
+  --center = true,
   size = "300 600", --Width and height
 })
 
