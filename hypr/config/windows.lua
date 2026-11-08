@@ -46,3 +46,47 @@ hl.window_rule({
     move  = "20 monitor_h-120",
     float = true,
 })
+
+-- Steam setting float center screen 
+hl.window_rule({
+  name = "steam-float-dialogs",
+  match = {
+    class = "steam",
+    title = "Steam Settings",
+  },
+  float = true,
+  center = true,
+  size = "40% 30%", --Width and height
+})
+
+-- Steam friend float center screen
+hl.window_rule({
+  name = "steam-float-dialogs",
+  match = {
+    class = "steam",
+    title = "Friends List",
+  },
+  float = true,
+  center = true,
+  size = "300 600", --Width and height
+})
+
+-- Steam app
+hl.window_rule({
+  name = "steam-main-tile",
+  match = {
+    class = "steam",
+    title = "Steam",
+  },
+  float = false,
+})
+
+-- Steam games auto full screen
+hl.window_rule({
+  name = "steam-games-fullscreen",
+  match = {
+    class = "steam_app_\\d+",
+  },
+  workspace = "r+1", --put it on the next workspace
+  fullscreen = true,
+})
