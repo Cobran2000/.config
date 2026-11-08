@@ -21,7 +21,7 @@ fi
 CD rember:          zoxide   
 Fuzzy finder:       fzf  
 Utils:              eza, fd, ripgrep, bat    
-zsh skin:           starship
+zsh skin:           starship   
 AUR helper:         yay  
   
 ## Booting and backup  
