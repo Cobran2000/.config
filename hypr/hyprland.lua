@@ -1,10 +1,11 @@
 require("config.nvidea")
 require("config.autostart")
 require("config.environment")
+require("config.windows")
 require("config.variables")
 require("config.inputs")
 require("config.keybindings")
 require("config.layers")
 require("config.misc")
 require("config.permissions")
-require("config.windows")
+
