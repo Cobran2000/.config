@@ -79,7 +79,8 @@ hl.window_rule({
     title = "Steam",
   },
   float = false,
-})
+  scrolling_width = 1,
+  })
 
 -- Steam games auto full screen
 hl.window_rule({
@@ -90,3 +91,13 @@ hl.window_rule({
   workspace = "r+1", --put it on the next workspace
   fullscreen = true,
 })
+
+-- discord app
+hl.window_rule({
+  name = "discord",
+  match = {
+    class = "discord",
+  },
+  float = false,
+  scrolling_width = 1,
+  })
