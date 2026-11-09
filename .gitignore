@@ -13,6 +13,8 @@ pulse/
 yay/
 zsh/history
 zsh/zcompdump
+user-dirs.dirs
+user-dirs.locale
 
 # Algemeen tijdelijk en gevoelige bestanden
 *.log
