@@ -46,3 +46,9 @@ alias -- -='cd -' # -- prevents - being parsed as a flag; cd - jumps to previous
 # =========================================================
 
 alias vim='nvim'
+
+# =========================================================
+# Cleanup
+# =========================================================
+
+alias clearf='clear && fastfetch'
