@@ -51,4 +51,4 @@ alias vim='nvim'
 # Cleanup
 # =========================================================
 
-alias clearf='clear && fastfetch'
+alias fclear='clear && fastfetch'
