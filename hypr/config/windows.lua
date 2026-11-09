@@ -49,7 +49,7 @@ hl.window_rule({
 
 -- Steam setting float center screen 
 hl.window_rule({
-  name = "steam-float-dialogs",
+  name = "steam-float-settings",
   match = {
     class = "steam",
     title = "Steam Settings",
@@ -61,7 +61,7 @@ hl.window_rule({
 
 -- Steam friend float center screen
 hl.window_rule({
-  name = "steam-float-dialogs",
+  name = "steam-float-friend",
   match = {
     class = "steam",
     title = "Friends List",
