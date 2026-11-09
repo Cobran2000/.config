@@ -3,6 +3,7 @@
 Desktop enverment:  hyprland  
 Launcher:           hyprlauncher  
 Texteditor:         Neovim   
+fetch:              fastfetch
 
 ## Terminal and command  
 Terminal:           kitty  
