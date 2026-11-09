@@ -1,8 +1,6 @@
 import Quickshell
 
 Scope {
-    Time { id: timeSource }
-
     Variants {
         model: Quickshell.screens
 
@@ -20,7 +18,6 @@ Scope {
 
             ClockWidget {
                 anchors.centerIn: parent
-                time: timeSource.time
             }
         }
     }

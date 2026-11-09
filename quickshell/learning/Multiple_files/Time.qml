@@ -1,25 +1,18 @@
+// with this line the type becomes a Singleton
+pragma Singleton
+
 import Quickshell
-import Quickshell.Io
 import QtQuick
 
-Scope{
+Singleton {
     id: root
-    property string time
-
-    Process {
-        id: dateProc
-        command: ["date"]
-        running: true
-
-        stdout: StdioCollector {
-            onStreamFinished:  root.time = this.text
-        }
+    readonly property string time: {
+        Qt.formatDateTime(clock.date, "ddd MMM d hh:mm t yyyy")
     }
 
-    Timer {
-        interval: 1000
-        repeat: true
-        running: true
-        onTriggered: dateProc.run()
+    SystemClock {
+        id: clock
+        //set the precision to minutes, so the clock will update every minute 
+        precision: SystemClock.Minutes
     }
 }
