@@ -31,7 +31,7 @@ Snapshots:          snapper
 Bootloader:         limine  
 
 ## To Do
-[ X ] Edit fastfetch config to have label   
+[ ] Edit fastfetch config to have label   
 [ ] Learn more of quickshell   
 [ ] Make own waybar   
 [ ] Make launch   
