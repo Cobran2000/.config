@@ -145,10 +145,6 @@
       "keyIcon": ""
     },
     {
-      "type": "host",
-      "keyIcon": "󰌢"
-    },
-    {
       "type": "kernel",
       "keyIcon": ""
     },
@@ -169,13 +165,6 @@
       "keyIcon": ""
     },
     {
-      "type": "display",
-      "keyIcon": "󰍹",
-      "compactType": "none",
-      "preciseRefreshRate": false,
-      "order": null
-    },
-    {
       "type": "de",
       "keyIcon": ""
     },
@@ -184,6 +173,16 @@
       "keyIcon": "",
       "detectPlugin": true
     },
+
+    // Separator for better readability and 
+    // !!! when found how to add text hier add a text to describe the next section
+    {
+      "type": "separator",
+      "string": " ",
+      "outputColor": "",
+      "times": 0
+    },
+
     {
       "type": "wmtheme",
       "keyIcon": "󰓸"
@@ -212,6 +211,16 @@
       "type": "terminalfont",
       "keyIcon": ""
     },
+
+    // Separator for better readability and 
+    // !!! when found how to add text hier add a text to describe the next section
+    {
+      "type": "separator",
+      "string": " ",
+      "outputColor": "",
+      "times": 0
+    },
+
     {
       "type": "cpu",
       "keyIcon": "",
@@ -299,10 +308,6 @@
       "defaultRouteOnly": true,
       "showAllIps": false,
       "namePrefix": ""
-    },
-    {
-      "type": "locale",
-      "keyIcon": ""
     },
     "break",
     {
