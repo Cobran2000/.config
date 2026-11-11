@@ -30,3 +30,10 @@ AUR helper:         yay
 Snapshots:          snapper  
 Bootloader:         limine  
 
+## To Do
+[] Edit fastfetch config to have label
+[] Learn more of quickshell
+[] Make own waybar
+[] Make launch
+[] Make controlcenter
+[] Make notificationcenter
