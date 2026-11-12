@@ -37,3 +37,7 @@ Bootloader:         limine
 [ ] Make launch   
 [ ] Make controlcenter   
 [ ] Make notificationcenter   
+
+## Inspirations
+https://github.com/bnsplits/dotfiles
+
