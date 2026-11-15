@@ -101,3 +101,12 @@ hl.window_rule({
   float = false,
   scrolling_width = 1,
   })
+
+-- quickshell
+  hl.window_rule({
+    name = "quickshell",
+    match = {
+	class = "org.quickshell"
+    },
+    float = true,
+  })
