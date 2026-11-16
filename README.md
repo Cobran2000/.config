@@ -39,6 +39,7 @@ Bootloader:         limine
 [ ] Make notificationcenter   
 
 ## Inspirations
-https://github.com/bnsplits/dotfiles
-https://www.reddit.com/r/unixporn/comments/1xv94f8/hyprland_lucid_121/   
-    https://sn3akyy1.github.io/lucid/index.html   
+- https://github.com/bnsplits/dotfiles
+- https://www.reddit.com/r/unixporn/comments/1xv94f8/hyprland_lucid_121/   
+-       https://sn3akyy1.github.io/lucid/index.html   
+- https://github.com/LilaccFlowerr/Nebula (for lockscreen only)   
